@@ -7,7 +7,7 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-// import { FaYoutube } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
