@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/sub/IconCloudUi.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/sub/IconCloudUi.jsx", "components/main/Projects.jsx", "components/sub/ProjectCard.jsx", "app/page.jsx", "utils/motion.js", "components/sub/AnimatedGradient.jsx"],
   "exclude": ["node_modules"]
 }

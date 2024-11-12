@@ -9,9 +9,6 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-		
-
-
   		backgroundImage: {
   			'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
   			'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
@@ -63,28 +60,34 @@ const config: Config = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
-		
-		  animation: {
-			orbit: "orbit calc(var(--duration)*1s) linear infinite",
-			customSpin: 'customSpin 3s linear infinite', // You can change the duration to suit your needs
-
-		  },
-		  keyframes: {
-			orbit: {
-			  "0%": {
-				transform:
-				  "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
-			  },
-			  "100%": {
-				transform:
-				  "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
-			  },
-			},
-			customSpin: {
-				'0%': { transform: 'rotate(0deg)' },
-				'100%': { transform: 'rotate(360deg)' },
-			  },
-		}
+  		animation: {
+  			orbit: 'orbit calc(var(--duration)*1s) linear infinite',
+  			customSpin: 'customSpin 3s linear infinite',
+  			gradient: 'gradient 8s linear infinite'
+  		},
+  		keyframes: {
+  			orbit: {
+  				'0%': {
+  					transform: 'rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)'
+  				},
+  				'100%': {
+  					transform: 'rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)'
+  				}
+  			},
+  			customSpin: {
+  				'0%': {
+  					transform: 'rotate(0deg)'
+  				},
+  				'100%': {
+  					transform: 'rotate(360deg)'
+  				}
+  			},
+  			gradient: {
+  				to: {
+  					backgroundPosition: 'var(--bg-size) 0'
+  				}
+  			}
+  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
