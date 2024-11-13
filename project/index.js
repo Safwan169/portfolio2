@@ -150,82 +150,87 @@
 
 const projects = [
   {
-    name: "Loom",
+    name: "Quick-Bites",
     description:
-      "A zoom clone that allows user to create instant meetings, schedule meeting, have personal meeting rooms and record their meetings to view later.",
+      "QuickBites a food delivery platform offering secure payments, discounts, personalized suggestions, and real-time support for seamless orders.",
     tags: [
       {
-        name: "next",
+        name: "Next",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "stream",
+        name: "Socket Io",
         color: "pink-text-gradient",
       },
       {
-        name: "clerk",
+        name: "MongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Node",
         color: "green-text-gradient",
       },
     ],
     image: '/quickbite.png',
-    project_link: "https://loom-safwan.vercel.app/",
-    source_code_link: "https://github.com/safwan6395/loom/",
+    project_link: "https://quick-bites-tau.vercel.app/",
+    source_code_link: "https://github.com/sojibislam9878/quick_bites/tree/Safwan_Hossain",
   },
 
   {
-    name: "Forkify",
+    name: "Product Hunt",
     description:
-      "Forkify is a comprehensive recipe web app, offering users a full suite of features to search, view, modify, bookmark, and even add recipes to their personal collection.",
+      "A platform to discover new products. Built with React and Node Js, featuring a sleek, user-friendly interface and real-time search functionality.",
     tags: [
       {
-        name: "html",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Node Js",
         color: "pink-text-gradient",
+      },    {
+        name: "Express",
+        color: "green-text-gradient",
       },
     ],
-    image: '/quickbite.png',
-    project_link: "https://forkify-webapp-v1.netlify.app/",
-    source_code_link: "https://github.com/safwan6395/forkify/",
+    image: 'https://i.ibb.co/mh59qv2/product-hunt-img.webp',
+    project_link: "https://ass-12-834ed.web.app/",
+    source_code_link: "https://github.com/Safwan169/Product-Hunt-Client-side",
   },
   {
-    name: "Proshop",
+    name: "Alternative Product",
     description:
-      "An E-commerce web application that allows user to browse and purchase the latest gadgets and accessories with ease. It also contains all the necessary admin features",
+      "A comparison tool for finding alternative products. Developed using React and Node, it includes detailed comparison charts and user reviews.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "express",
+        name: "Express",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Tailwind",
+        color: "blue-text-gradient",
       },
     ],
-    image: '/quickbite.png',
-    source_code_link: "https://github.com/safwan6395/proshop/",
+    image: 'https://i.ibb.co/r2rrMmc/Alternative-img.png',
+    project_link: "https://product-info-bd6b7.web.app/",
+
+    source_code_link: "https://github.com/Safwan169/Alternative-Product-Client-Side--1-",
   },
 ];
 

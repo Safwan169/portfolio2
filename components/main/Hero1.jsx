@@ -20,11 +20,11 @@ const Hero1 = ({ width }) => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row border border-green-500 justify-around    px-20 mt-40 w-full h-[400px] z-[20]"
+      className="flex flex-row relative  lg:mx-10  px-20 mt-40 w-full h-[400px] z-[20]"
     >
       {/* all text for hero section  */}
       <div
-        className={`${styles.paddingX} absolute  z-30 inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute     z-30 inset-0 left-0  flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col items-center justify-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -82,23 +82,24 @@ const Hero1 = ({ width }) => {
 
     
 
-      {/* <div className="z-50 border border-green-500"> */}
+  <div className="z-50  w-fit  absolute right-0 "> 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full  z-30 flex justify-end"
+        className="w-fit text-end   h-[400px]  z-30 flex justify-end"
       >
-        {/* <Image className=" border border-red-500"
-        src="/computer.png"
+        <Image className=" "
+        src="/mainIconsdark.svg"
         alt="work icons"
         height={650}
         width={650}
-      /> */}
+      />
 
         {/* <OrbitingCirclesDemo /> */}
       </motion.div>
-      <div className="z-30 text-center border ">
+      </div> 
+      {/* <div className="z-30 text-center border ">
         <ComputersCanvas />
-      </div>
+ 
 
       {/* </div> */}
     </motion.div>

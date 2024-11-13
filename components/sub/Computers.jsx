@@ -1,20 +1,21 @@
+/* eslint-disable react/no-unknown-property */
 import React, { Suspense, useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+
 import CanvasLoader from "../sub/Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("/desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <mesh>
-      <hemisphereLight intensity={0.35} groundColor="gray" />
-      <ambientLight intensity={0.3} />
-      <pointLight intensity={2} position={[10, 10, 10]} />
+      <hemisphereLight intensity={0.15} groundColor='black' />
+      <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.2}
+        angle={0.12}
         penumbra={1}
-        intensity={1.2}
+        intensity={0.8}
         castShadow
       />
       <primitive
@@ -31,21 +32,28 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Take the boolean value that identifies if the media query applies
     const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // set the initial value of the isMobile state
     setIsMobile(mediaQuery.matches);
 
+    // Define a callback functions for handling changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
 
+    // Add the callback function to the event listener
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    return () => mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    // Remove the event listener on component unmount
+    return () =>
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
   }, []);
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop='demand'
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}

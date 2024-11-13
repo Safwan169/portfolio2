@@ -32,7 +32,11 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+
+        <div className="z-50">
         <Footer  />
+
+        </div>
       </body>
     </html>
   );
