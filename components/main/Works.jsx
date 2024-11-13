@@ -3,7 +3,6 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { styles } from "/styles";
 // import { github, link } from "../../public";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../project/index";

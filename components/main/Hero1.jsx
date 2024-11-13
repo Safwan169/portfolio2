@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
 import { styles } from "../../styles";
-import ComputersCanvas from "../sub/Computers";
-// import computer  from "/computer.png";
-
 import React from "react";
 import {
   slideInFromLeft,
@@ -14,7 +11,6 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { ShinyButtonDemo } from "../sub/ShineButton";
 // import { IconCloudUi } from "./IconCloudUi";
-import { OrbitingCirclesDemo } from "../sub/Orbite";
 const Hero1 = () => {
   return (
     <motion.div
