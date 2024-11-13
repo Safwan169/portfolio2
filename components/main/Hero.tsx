@@ -1,23 +1,10 @@
 "use client"
-import React, { useEffect, useState } from "react";
 // import HeroContent from "../sub/HeroContent";
 import Hero1 from "./Hero1";
 
 const Hero = () => {
 
-  
-  const [width, setWidth] = useState(window.innerWidth);
 
-  const handleResize = () => {
-    setWidth(window.innerWidth);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
     <div className="relative flex flex-col h-full w-full" id="about-me">
       <video
@@ -30,7 +17,7 @@ const Hero = () => {
       </video>
       {/* <HeroContent /> */}
       <div className="bg-center h-full z-30 bg-no-repeat bg-cover bg-hero-pattern">
-        <Hero1 width={width} />
+        <Hero1  />
       </div>
     </div>
   );

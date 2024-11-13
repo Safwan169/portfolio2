@@ -15,7 +15,7 @@ import Image from "next/image";
 import { ShinyButtonDemo } from "../sub/ShineButton";
 // import { IconCloudUi } from "./IconCloudUi";
 import { OrbitingCirclesDemo } from "../sub/Orbite";
-const Hero1 = ({ width }) => {
+const Hero1 = () => {
   return (
     <motion.div
       initial="hidden"
