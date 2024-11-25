@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 // import emailjs from "@emailjs/browser";
-// here is email js for import
+
 
 import { styles } from "../../styles";
 import EarthCanvas from "../sub/Earth";
