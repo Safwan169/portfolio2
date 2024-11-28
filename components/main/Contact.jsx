@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 
-
+// here the import file is messing 
 import { styles } from "../../styles";
 import EarthCanvas from "../sub/Earth";
 import { SectionWrapper } from "../../hoc";
