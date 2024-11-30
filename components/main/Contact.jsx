@@ -9,6 +9,7 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import AnimatedGradientTextDemo from '../sub/AnimateBtn'
 
+import emailjs from 'emailjs-com';
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,6 +17,8 @@ const Contact = () => {
     email: "",
     message: "",
   });
+
+  emailjs.init("kv40Ya7LARL4c-o-Q"); 
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -30,35 +33,35 @@ const Contact = () => {
 
     // here i use email js
 
-    // emailjs
-    //   .send(
-    //     "service_4esuoaj",
-    //     "template_gtw9xl2",
-    //     {
-    //       from_name: form.name,
-    //       to_name: "Safwan",
-    //       from_email: form.email,
-    //       to_email: "safwan.hassan.d@gmail.com",
-    //       message: form.message,
-    //     },
-    //     "Am4R5JmyL5JqZ_8vk"
-    //   )
-    //   .then(
-    //     () => {
-    //       setLoading(false);
-    //       alert("Thank you! i will get back to you as soon as possible.");
-    //       setForm({
-    //         name: "",
-    //         email: "",
-    //         message: "",
-    //       });
-    //     },
-    //     (error) => {
-    //       setLoading(false);
-    //       console.log(error);
-    //       alert("Oops! something went wrong.");
-    //     }
-    //   );
+    emailjs
+      .send(
+        "service_ldtciqf",
+        "template_wck5j1s",
+        {
+          from_name: form.name,
+          to_name: "Safwan Hossain ",
+          from_email: form.email,
+          to_email: "safwanhossainmridul@gmail.com",
+          message: form.message,
+        },
+        "kv40Ya7LARL4c-o-Q"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you! i will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Oops! something went wrong.");
+        }
+      );
   };
 
   return (
