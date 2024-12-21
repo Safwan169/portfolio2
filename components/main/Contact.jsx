@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12  mt-2    mx-0  sm:mx-auto  xl:flex-row flex-col-reverse flex gap-10 justify-between overflow-hidden">
+    <div className="xl:mt-12  mt-2    xl:mx-28  mx-0  sm:mx-auto  xl:flex-row flex-col-reverse flex gap-10 justify-between overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 0.1)}
         className="flex-[0.75] bg-black-100 pt-2 sm:p-6 bg-[#100d25] z-40 rounded-2xl"
@@ -124,7 +124,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-tertiary sm:py-3 sm:px-8 outline-none w-fit text-white  shadow-md shadow-primary rounded-none"
+            className="bg-tertiary sm:py-3 m-3 sm:px-8 outline-none w-fit text-white  shadow-md shadow-primary rounded-none"
           >
             {loading ?<p className='border border-[#7042f88b] cursor-not-allowed p-3 px-5 rounded-sm'>Sending...</p> : 
             <p className="border border-[#7042f88b] p-3 px-5 hover:bg-[#7042f88b] rounded-sm">Send</p>}

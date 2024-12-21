@@ -23,14 +23,14 @@ const ProjectCard = ({
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt
           options={{ max: 45, scale: 1, speed: 450 }}
-          className="bg-tertiary  z-30 border border-[#2A0E61]  rounded-lg sm:w-[360px] w-full"
+          className="bg-tertiary  z-30 border border-[#2A0E61]  rounded-lg  md:w-[350px] w-full  lg:w-[360px]"
         >
           {/* this is for images and icons  */}
           <div className="relative w-full -p-10 h-[230px]">
             <img
               src={image}
               alt={name}
-              className="w-full h-full object-cover "
+              className="w-full h-full bg-cover object-cover "
             />
             <div className="absolute inset-0 flex justify-end gap-2 m-3 card-img__hover">
               <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
@@ -75,7 +75,7 @@ const Works = () => {
   return (
     // this is for project heading text
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center   mx-0 py-20"
       id="projects"
     >
       <motion.div variants={textVariant()}>
@@ -98,7 +98,7 @@ const Works = () => {
       </div>
 
       {/* this is for map in project data which is into the top  */}
-      <div className="mt-20  flex justify-around flex-wrap gap-5">
+      <div className="mt-20  flex justify-around flex-wrap gap-5 md:gap-2  xl:gap-28">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

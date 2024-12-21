@@ -181,7 +181,7 @@ const projects = [
   },
 
   {
-    name: "Product Hunt",
+    name: "Trend-Hive",
     description:
       "A platform to discover new products. Built with React and Node Js, featuring a sleek, user-friendly interface and real-time search functionality.",
     tags: [
@@ -201,7 +201,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: 'https://i.ibb.co/mh59qv2/product-hunt-img.webp',
+    image: 'https://i.ibb.co.com/7yN6DMP/trend-hive.png',
     project_link: "https://ass-12-834ed.web.app/",
     source_code_link: "https://github.com/Safwan169/Product-Hunt-Client-side",
   },
