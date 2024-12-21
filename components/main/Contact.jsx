@@ -65,10 +65,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12   mx-10  xl:flex-row flex-col-reverse flex gap-10 justify-between overflow-hidden">
+    <div className="xl:mt-12  mt-2  border border-green-500  mx-0  sm:mx-auto  xl:flex-row flex-col-reverse flex gap-10 justify-between overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 0.1)}
-        className="flex-[0.75] bg-black-100 p-6 bg-[#100d25] z-40 rounded-2xl"
+        className="flex-[0.75] bg-black-100 pt-2 sm:p-6 bg-[#100d25] z-40 rounded-2xl"
       >
         <p
           className={
@@ -90,6 +90,7 @@ const Contact = () => {
               type="text"
               name="name"
               value={form.name}
+              required
               onChange={handleChange}
               placeholder="What's your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium focus:outline-1 focus:outline-white"
@@ -100,6 +101,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email"
@@ -107,11 +109,12 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4 sm:mb-4">Your Message</span>
             <textarea
               rows={7}
               name="message"
               value={form.message}
+              required
               onChange={handleChange}
               placeholder="What's on your mind"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium focus:outline-1 focus:outline-white"
@@ -121,17 +124,17 @@ const Contact = () => {
           <button
             type="submit"
             disabled={loading}
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-tertiary sm:py-3 sm:px-8 outline-none w-fit text-white  shadow-md shadow-primary rounded-none"
           >
-            {loading ?<AnimatedGradientTextDemo text={ "Sending..."}/> : 
-            <AnimatedGradientTextDemo  text={"Send"} />}
+            {loading ?<p className='border border-[#7042f88b] cursor-not-allowed p-3 px-5'>Sending...</p> : 
+            <p className="border border-[#7042f88b] p-3 px-5 hover:bg-[#7042f88b]">Send</p>}
           </button>
         </form>
       </motion.div>
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 0.1)}
-        className="xl:flex-1   w-1/3 xl:h-auto md:h-[550px] h-[300px]"
+        className="xl:flex-1  border border-red-400   w-fit   xl:h-auto md:h-[550px] h-[300px]"
       >
         <EarthCanvas />
       </motion.div>
