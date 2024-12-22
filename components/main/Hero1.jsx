@@ -8,19 +8,17 @@ import {
   slideInFromDown,
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import Image from "next/image";
 import { ShinyButtonDemo } from "../sub/ShineButton";
-// import { IconCloudUi } from "./IconCloudUi";
 const Hero1 = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row relative  lg:mx-10  px-20 mt-40 w-full h-[400px] z-[20]"
+      className="flex flex-row relative   mt-40 w-full h-[400px] z-[20]"
     >
       {/* all text for hero section  */}
       <div
-        className={`${styles.paddingX} absolute     z-30 inset-0 left-0  flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute w-full    z-30 inset-0 left-0  flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col items-center justify-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -49,7 +47,7 @@ const Hero1 = () => {
           <div>
             <motion.div
               variants={slideInFromDown}
-              className={` text-[#dfd9ff] font-medium lg:text-[18px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
+              className={` text-[#dfd9ff] font-medium lg:text-[15px] x1:text-[18px] border border-white   text-[14px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
             >
               I’m a junior front-end developer passionate about creating
               engaging, responsive web experiences. Skilled in React and
@@ -78,16 +76,14 @@ const Hero1 = () => {
 
     
 
-  <div className="z-50  w-fit  absolute right-0 "> 
+  <div className="z-50   md:w-[40%] lg:w-fit absolute right-0 "> 
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-fit text-end   h-[400px]  z-30 flex justify-end"
       >
-        <Image className=" "
+        <img className="    w-fit  "
         src="/mainIconsdark.svg"
         alt="work icons"
-        height={650}
-        width={650}
       />
 
         {/* <OrbitingCirclesDemo /> */}

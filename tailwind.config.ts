@@ -87,7 +87,10 @@ const config: Config = {
   					backgroundPosition: 'var(--bg-size) 0'
   				}
   			}
-  		}
+  		},
+		screens:{
+			x1:'1200px'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

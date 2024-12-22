@@ -27,13 +27,13 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#030014] overflow-y-scroll  overflow-x-hidden`}
       >
         <StarsCanvas />
         <Navbar />
         {children}
 
-        <div className="z-50">
+        <div className="z-50 ">
         <Footer  />
 
         </div>

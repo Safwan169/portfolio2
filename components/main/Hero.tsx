@@ -6,7 +6,7 @@ const Hero = () => {
 
 
   return (
-    <div className="relative flex flex-col h-full w-full" id="about-me">
+    <div className="relative  flex flex-col h-full w-full " id="about-me">
       <video
         autoPlay
         muted
@@ -16,7 +16,7 @@ const Hero = () => {
         <source src="/blackhole.webm" type="video/webm" />
       </video>
       {/* <HeroContent /> */}
-      <div className="bg-center h-full z-30 bg-no-repeat bg-cover bg-hero-pattern">
+      <div className="bg-center  h-full x1:px-20 lg:px-10 z-30 bg-no-repeat bg-cover bg-hero-pattern">
         <Hero1  />
       </div>
     </div>
