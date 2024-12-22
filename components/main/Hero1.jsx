@@ -47,7 +47,7 @@ const Hero1 = () => {
           <div>
             <motion.div
               variants={slideInFromDown}
-              className={` text-[#dfd9ff] font-medium lg:text-[15px] x1:text-[18px] border border-white   text-[14px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
+              className={` text-[#dfd9ff] font-medium lg:text-[15px] x1:text-[18px]   text-[14px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
             >
               I’m a junior front-end developer passionate about creating
               engaging, responsive web experiences. Skilled in React and
