@@ -7,7 +7,6 @@ import EarthCanvas from "../sub/Earth";
 import { SectionWrapper } from "../../hoc";
 // here is hoc
 import { slideIn } from "../../utils/motion";
-import AnimatedGradientTextDemo from '../sub/AnimateBtn'
 
 import emailjs from 'emailjs-com';
 const Contact = () => {

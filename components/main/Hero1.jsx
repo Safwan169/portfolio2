@@ -86,14 +86,9 @@ const Hero1 = () => {
         alt="work icons"
       />
 
-        {/* <OrbitingCirclesDemo /> */}
       </motion.div>
       </div> 
-      {/* <div className="z-30 text-center border ">
-        <ComputersCanvas />
- 
-
-      {/* </div> */}
+    
     </motion.div>
   );
 };
