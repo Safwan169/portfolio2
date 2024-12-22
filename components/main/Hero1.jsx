@@ -39,7 +39,7 @@ const Hero1 = () => {
           >
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
-              Web Developer
+             Junior Web Developer
             </h1>
           </motion.div>
 
@@ -49,8 +49,8 @@ const Hero1 = () => {
               variants={slideInFromDown}
               className={` text-[#dfd9ff] font-medium lg:text-[15px] x1:text-[18px]   text-[14px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
             >
-              I’m a junior front-end developer passionate about creating
-              engaging, responsive web experiences. Skilled in React and
+              I’m a Junior Web Developer passionate about creating
+              engaging, responsive web experiences. Skilled in React.js,Next.js and
               experienced with building RESTful APIs using Node.js, Express, and
               MongoDB, I build seamless applications that connect dynamic front
               ends with powerful backends. I’m constantly honing my skills to
