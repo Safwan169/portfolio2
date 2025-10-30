@@ -149,6 +149,37 @@
 // ];
 
 const projects = [
+
+{
+  "name": "CARE CHAIN",
+  "description":"CARE CHAIN delivers responsive clinic management with patient dashboards, appointments, records, secure login, and seamless cross-browser functionality.",
+  "tags": [
+    {
+      "name": "React",
+      "color": "green-text-gradient"
+    },
+    {
+      "name": "Redux",
+      "color": "pink-text-gradient"
+    },
+    {
+      "name": "TypeScript",
+      "color": "blue-text-gradient"
+    },
+    
+ 
+    {
+      "name": "Radix UI",
+      "color": "orange-text-gradient"
+    },
+    
+  ],
+  "image": "/care_chain.png",
+  "project_link": "https://care-chain-frontend.vercel.app",
+  "source_code_link": "https://github.com/your-username/clinicpro-frontend-v2"
+}
+
+,
   {
     name: "Quick-Bites",
     description:
@@ -205,33 +236,33 @@ const projects = [
     project_link: "https://ass-12-834ed.web.app/",
     source_code_link: "https://github.com/Safwan169/Product-Hunt-Client-side",
   },
-  {
-    name: "Alternative Product",
-    description:
-      "A comparison tool for finding alternative products. Developed using React and Node, it includes detailed comparison charts and user reviews.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: 'https://i.ibb.co/r2rrMmc/Alternative-img.png',
-    project_link: "https://product-info-bd6b7.web.app/",
+  // {
+  //   name: "Alternative Product",
+  //   description:
+  //     "A comparison tool for finding alternative products. Developed using React and Node, it includes detailed comparison charts and user reviews.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Express",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: 'https://i.ibb.co/r2rrMmc/Alternative-img.png',
+  //   project_link: "https://product-info-bd6b7.web.app/",
 
-    source_code_link: "https://github.com/Safwan169/Alternative-Product-Client-Side--1-",
-  },
+  //   source_code_link: "https://github.com/Safwan169/Alternative-Product-Client-Side--1-",
+  // },
 ];
 
 export {  projects };

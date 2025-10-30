@@ -45,8 +45,8 @@ export const Skill_data = [
     },
    
     {
-      skill_name: "Fire base",
-      Image: '/Firebase.png',
+      skill_name: "Redux",
+      Image: '/redux.png',
       width: 60,
       height: 60,
     },
@@ -86,12 +86,13 @@ export const Skill_data = [
   
   
   export const Frontend_skill = [
-    {
+     {
       skill_name: "Html 5",
       Image: '/html.png',
       width: 80,
       height: 80,
     },
+    
     {
       skill_name: "Css",
       Image: '/css.png',
@@ -103,6 +104,12 @@ export const Skill_data = [
       Image: '/js.png',
       width: 65,
       height: 65,
+    },
+    {
+      skill_name: "TypeScript",
+      Image: '/ts.png',
+      width: 72,
+      height: 72,
     },
     {
       skill_name: "Tailwind Css",
@@ -118,11 +125,11 @@ export const Skill_data = [
       height: 80,
     },
    
-    {
-      skill_name: "Figma",
-      Image: '/figma.png',
-      width: 50,
-      height: 50,
+     {
+      skill_name: "Redux",
+      Image: '/redux.png',
+      width: 60,
+      height: 60,
     },
     {
       skill_name: "Next js 13",
@@ -142,16 +149,24 @@ export const Skill_data = [
    
     
     {
-      skill_name: "JWT",
-      Image: '/jwt.png',
-      width: 80,
-      height: 80,
-    },{
+      skill_name: "postgreSql",
+      Image: '/postgreSql.png',
+      width: 100,
+      height: 100,
+    },
+    {
       skill_name: "Mongo db",
       Image: '/mongodb.png',
       width: 40,
       height: 40,
-    }, {
+    }, 
+    {
+      skill_name: "mongoogse",
+      Image: '/mongoogse.png',
+      width: 90,
+      height: 100,
+    }, 
+    {
       skill_name: "Express js",
       Image: '/express.png',
       width: 80,
@@ -179,6 +194,12 @@ export const Skill_data = [
       Image: '/gitwhite.png',
       width: 60,
       height: 60,
+    },
+    {
+      skill_name: "postman",
+      Image: '/postman.png',
+      width: 80,
+      height: 80,
     },
   
     // {

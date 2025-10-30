@@ -89,7 +89,8 @@ const config: Config = {
   			}
   		},
 		screens:{
-			x1:'1200px'
+			x1:'1200px',
+			xl3:'1400px'
 		}
   	}
   },

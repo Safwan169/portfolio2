@@ -20,6 +20,7 @@ const Earth = () => {
 const EarthCanvas = () => {
   return (
     <Canvas
+    className=" mx-auto "
       shadows
       frameloop='demand'
       gl={{ preserveDrawingBuffer: true }}
