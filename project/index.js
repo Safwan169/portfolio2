@@ -176,7 +176,7 @@ const projects = [
   ],
   "image": "/care_chain.png",
   "project_link": "https://care-chain-frontend.vercel.app",
-  "source_code_link": "https://github.com/your-username/clinicpro-frontend-v2"
+  "source_code_link": "https://github.com/Safwan169/CARE-CHAIN-Frontend"
 }
 
 ,
