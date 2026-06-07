@@ -151,6 +151,32 @@
 const projects = [
 
 {
+  "name": "ALISHA NOOR",
+  "description": "A Full-Stack Fashion E-commerce platform with dynamic product catalog, advanced filtering, cart, order management, and AI-powered Visual Search using Hugging Face image-embedding models.",
+  "tags": [
+    {
+      "name": "Next",
+      "color": "blue-text-gradient"
+    },
+    {
+      "name": "TypeScript",
+      "color": "green-text-gradient"
+    },
+    {
+      "name": "Nest Js",
+      "color": "pink-text-gradient"
+    },
+    {
+      "name": "PostgreSQL",
+      "color": "orange-text-gradient"
+    }
+  ],
+  "image": "/alisha-noor.png",
+  "project_link": "",
+  "source_code_link": ""
+},
+
+{
   "name": "CARE CHAIN",
   "description":"CARE CHAIN delivers responsive clinic management with patient dashboards, appointments, records, secure login, and seamless cross-browser functionality.",
   "tags": [
@@ -211,31 +237,6 @@ const projects = [
     source_code_link: "https://github.com/sojibislam9878/quick_bites/tree/Safwan_Hossain",
   },
 
-  {
-    name: "Trend-Hive",
-    description:
-      "A platform to discover new products. Built with React and Node Js, featuring a sleek, user-friendly interface and real-time search functionality.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node Js",
-        color: "pink-text-gradient",
-      },    {
-        name: "Express",
-        color: "green-text-gradient",
-      },
-    ],
-    image: 'https://i.ibb.co.com/7yN6DMP/trend-hive.png',
-    project_link: "https://ass-12-834ed.web.app/",
-    source_code_link: "https://github.com/Safwan169/Product-Hunt-Client-side",
-  },
   // {
   //   name: "Alternative Product",
   //   description:
