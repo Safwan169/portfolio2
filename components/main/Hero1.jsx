@@ -39,7 +39,7 @@ const Hero1 = () => {
           >
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className="Welcome-text text-[13px]">
-             Junior Web Developer
+            Web Developer
             </h1>
           </motion.div>
 
@@ -49,7 +49,7 @@ const Hero1 = () => {
               variants={slideInFromDown}
               className={` text-[#dfd9ff] font-medium lg:text-[15px] x1:text-[18px]   text-[14px] lg:leading-[30px]  w-[60%] my-5 text-white-100`}
             >
-              I’m a Junior Web Developer passionate about creating
+              I’m a Web Developer passionate about creating
               engaging, responsive web experiences. Skilled in React.js,Next.js and
               experienced with building RESTful APIs using Node.js, Express, and
               MongoDB, I build seamless applications that connect dynamic front
@@ -61,10 +61,9 @@ const Hero1 = () => {
           {/* resume download section */}
           <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
             <motion.a
-              href=" https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download"
-              download={
-                " https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download"
-              }
+              href="https://drive.google.com/uc?export=download&id=1FAIlXBXXl4nSMngHSBMRZakQhSX9_noO"
+              target="_blank"
+              rel="noopener noreferrer"
               variants={slideInFromLeft(1)}
               className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
             >
