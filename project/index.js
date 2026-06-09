@@ -172,8 +172,8 @@ const projects = [
     }
   ],
   "image": "/alisha-noor.png",
-  "project_link": "",
-  "source_code_link": ""
+  "project_link": "https://alisha-noor-frontend-main-8pqb.vercel.app/",
+  "source_code_link": "https://github.com/Safwan169/alisha-noor-frontend-main"
 },
 
 {
