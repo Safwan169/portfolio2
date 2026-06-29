@@ -208,7 +208,7 @@ const projects = [
   {
     name: "LMS",
     description:
-      "A comprehensive Learning Management System providing seamless course management, student enrollment, progress tracking, assignment submissions, and real-time notifications for educators and learners.",
+      "A modern Learning Management System for seamless course management, student enrollment, progress tracking, and assignment workflows for educators and learners.",
     tags: [
       {
         name: "Next Js",
