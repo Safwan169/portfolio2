@@ -218,10 +218,10 @@ const projects = [
         name: "TypeScript",
         color: "green-text-gradient",
       },
-      {
-        name: "Redux",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "Redux",
+      //   color: "pink-text-gradient",
+      // },
       {
         name: "Nest Js",
         color: "blue-text-gradient",
