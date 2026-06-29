@@ -204,37 +204,39 @@ const projects = [
   "project_link": "https://care-chain-frontend.vercel.app",
   "source_code_link": "https://github.com/Safwan169/CARE-CHAIN-Frontend"
 }
-
 ,
   {
-    name: "Quick-Bites",
+    name: "LMS",
     description:
-      "QuickBites a food delivery platform offering secure payments, discounts, personalized suggestions, and real-time support for seamless orders.",
+      "A comprehensive Learning Management System providing seamless course management, student enrollment, progress tracking, assignment submissions, and real-time notifications for educators and learners.",
     tags: [
       {
         name: "Next",
         color: "blue-text-gradient",
       },
       {
-        name: "React",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "Socket Io",
+        name: "Redux",
         color: "pink-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "Nest Js",
         color: "blue-text-gradient",
       },
       {
-        name: "Node",
+        name: "Prisma",
         color: "green-text-gradient",
       },
+      {
+        name: "PostgreSQL",
+        color: "orange-text-gradient",
+      },
     ],
-    image: '/quickbite.png',
-    project_link: "https://quick-bites-tau.vercel.app/",
-    source_code_link: "https://github.com/sojibislam9878/quick_bites/tree/Safwan_Hossain",
+    image: '/lms.png',
+    project_link: "https://lms-frontend-red-eight.vercel.app/login",
   },
 
   // {
