@@ -211,7 +211,7 @@ const projects = [
       "A comprehensive Learning Management System providing seamless course management, student enrollment, progress tracking, assignment submissions, and real-time notifications for educators and learners.",
     tags: [
       {
-        name: "Next",
+        name: "Next Js",
         color: "blue-text-gradient",
       },
       {
@@ -225,10 +225,6 @@ const projects = [
       {
         name: "Nest Js",
         color: "blue-text-gradient",
-      },
-      {
-        name: "Prisma",
-        color: "green-text-gradient",
       },
       {
         name: "PostgreSQL",
